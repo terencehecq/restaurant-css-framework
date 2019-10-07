@@ -4,10 +4,10 @@
 
 this project was made by:
 
-[__terence__](https://github.com/terencehecq)
-[__Valeriya__](https://github.com/ValeriyaKozlova)
-[__Markus__](https://github.com/emilemarkus)
-[__Micky__](https://github.com/MickyCompanie)
+[__Terence__](https://github.com/terencehecq)  
+[__Valeriya__](https://github.com/ValeriyaKozlova)  
+[__Markus__](https://github.com/emilemarkus)  
+[__Micky__](https://github.com/MickyCompanie)  
 
 ## Why ?
 
