@@ -6,13 +6,42 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/css/bear.css">
+<link rel="stylesheet" href="assets/css/carte.css">
 <title>Carte</title>
 </head>
 <body>
 
 
-    <div class="container">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" width="70" height="45" class="d-inline-block align-top" alt="Logo Bear burger">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-sm-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mx-3">
+                    <a class="nav-link" href="#">Carte<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="#">Photos</a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="#">Restaurants</a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Carte -->
+    <div class="container my-5">
 
         <h2 class="text-center my-5 display-4 d-md-none">Notre Carte</h2>
         <h2 class="text-center my-5 display-3 d-none d-md-block">Notre Carte</h2>
@@ -452,6 +481,46 @@
             </div>
         </div>
     </div> <!-- Fin du container-->
+
+
+    <!--Footer-->
+    <footer class="text-light">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                        <h2>Adress</h2>
+                        <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                        <h2>Contacts</h2>
+                        <a href="mailto:bearBurger@gmail.com" subject="From a customer" class="text-light"><b>Email:</b><br>bearBurger@gmail.com</a><br>
+                        <a href="tel:+324899876543" class="text-light"><b>Phone:</b><br>+32 (489) 987 6543</a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1">
+                        <h2>Links</h2>
+                        <a href="#" download="" class="text-light">Télécharger la carte</a><br>
+                        <a href="#" class="text-light">Jobs</a>
+                    </div>
+                    <div class="col-md-3 d-none d-md-block align-self-center text-md-center">
+                        <img class="logo" src="assets/images/logo.png">
+                    </div>
+                </div>
+                <hr class="m-1">
+                <div class="row padding icon text-md-left pt-3">
+                    <div class="col-md-6 col-sm-12 mb-3">
+                        <a class="pr-3" href="#"><i class="fab fa-linkedin-in text-light"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-instagram text-light"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-facebook-f text-light"></i></a>
+                        <a href="#"><i class="fab fa-twitter text-light"></i></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-md-right">
+                    <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.js"></script>
