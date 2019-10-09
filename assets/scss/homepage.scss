@@ -1,0 +1,194 @@
+
+html {
+    box-sizing: border-box;
+    font-size: calc(1hw + 0.6em);
+}
+.container {
+    max-width: 900px;
+    background-color:lightgoldenrodyellow;
+}
+.row {
+    padding: 10px 10px;
+}
+
+//navigation
+
+nav,
+footer {
+    font-size: 1.5em;
+    background-color: red;
+    text-align: left;
+    .logo {
+        width: 120px;
+    }
+}
+nav {
+    opacity: 0.9;
+}
+
+//slides
+
+.slide2 {
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    button {
+        color: black;
+    }
+}
+.carousel-inner {
+    height: 400px;
+    img {
+        height: 100%;
+    }
+}
+.carousel-item {
+    transform: translateY(-10%);
+    /*.active {
+        transform: translateY(-15%);
+    }
+    .slide2 {
+        transform: translateY(-30%);
+    }
+    .slide3 {
+        transform: translateZ(30%);
+    }*/
+}
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    max-width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, .2);
+}
+.caption1 {
+    bottom: 70%;
+    left: 57%;
+}
+//main part
+.offreDumois {
+        text-align: center;
+    h1,
+    h2,
+    h3 {
+        text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+    img {
+        width: 100%;
+    }
+}
+.couple,
+.allForYou,
+.veryHungry {
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        transition: all 1s;
+    }
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+        height: 0px;
+        position: absolute;
+        top: 10%;
+        list-style-type: none;
+        font-size: 1em;
+        text-align: left;
+        font-weight: bold;
+        color: white;
+        text-shadow: 1px 1px 1px white;
+        width: 100%;
+        transition: all 1s;
+        img {
+            opacity: 0;
+        }
+        .logo {
+            width: 50px;
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+        }
+    }
+    transition-duration: 1s;
+    &:hover {
+        background-color: red; 
+        img {
+            transform: scale(1.5);
+            filter: opacity(0.3);
+        }
+        .hidden {
+            visibility: visible;
+            opacity: 1;
+            width: 100%;
+            img {
+                opacity: 1;
+            }
+        }
+    }
+}
+.photo {
+    img {
+        width: 20x;
+    }
+}
+
+//subscribe
+.form {
+    border: 2px solid black;
+    box-shadow: 1 1 1 5px black;
+    text-align: center;
+    button {
+        background-color: red;
+    }
+    p {
+        text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+}
+
+//footer
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    .logo {
+        width: 12em;
+    }
+    .container {
+        background-color: red;
+    }
+    h2 {
+        font-weight: 200;
+        font-size: 2em;
+    }
+    a {
+        color: black;
+        text-transform: none;
+        &:hover {
+            text-decoration: none;
+            color: brown;
+        }
+    }
+    .icon {
+        i {
+        color: black;
+        font-size: 2.5em;
+        }
+    }
+}
+
+//responsive
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption,
+    .display-2 {
+        font-size: 2em;
+    }
+ }
+@media (min-width: 768px){
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/homepage.css">
+  </head>
+  <body>
+      <!--Navigation-->
+      <nav class="navbar navbar-expand-md navbar-light sticky-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brad"><img class="logo" src="assets/images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="#carte.html" class="nav-link">Carte</a></li>
+                        <li class="nav-item"><a href="#photos.html" class="nav-link">Photos</a></li>
+                        <li class="nav-item"><a href="#resraurants.html" class="nav-link">Restaurants</a></li>
+                        <li class="nav-item"><a href="#contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      <!--Slides-->
+      <div class="carousel slide" data-ride="carousel" id="slides">
+          <ul class="carousel-indicators">
+              <li data-target="#slides" data-slide-to="0" class="active"></li>
+              <li data-target="#slides" data-slide-to="1"></li>
+              <li data-target="#slides" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <picture>
+                      <source media="(max-width: 767px)" srcset="assets/images/slide1-sm.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/images/slide1a.png">
+                        <img src="assets/images/slide1a.png" alt="bear">
+                  </picture>
+                  <div class="carousel-caption caption1">
+                      <h3>The best burgers</h3>
+                      <button type="#carte" class="btn btn-outline-light btn-lg ml-0">Voir la carte</button>
+                  </div>
+              </div>
+              <div class="carousel-item slide2">
+                    <img src="assets/images/slide2a.jpg">
+                    <div class="carousel-caption slide2 text-right">
+                            <h1 class="display-2">BearBurgers</h1>
+                            <h3>The best burgers</h3>
+                            <button type="button" class="btn btn-outline-light btn-lg">Voir la carte</button>
+                    </div>
+              </div>
+              <div class="carousel-item slide3">
+                    <img src="assets/images/slide3a.jpg">
+                    <div class="carousel-caption text-right">
+                            <h1 class="display-2">BearBurgers</h1>
+                            <h3>The best burgers</h3>
+                            <button type="button" class="btn btn-outline-light btn-lg">Voir la carte</button>
+                    </div>
+                </div>
+          </div>
+      </div>
+      <!--Main part-->
+      <div class="container offreDumois">
+          <h1 >Offre du mois</h1>
+          <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h2>Burger</h2>
+                        <h3>"Very hungry Bear"</h3>
+                    <div class="veryHungry">
+                        <a href="#cart"><img src="assets/images/burgers6.jpg" alt="burger"></a>
+                        <ul class="hidden">
+                            <li>Cheddar</li>
+                            <li>Boeuf</li>
+                            <li>Tomates</li>
+                            <li>Salade</li>
+                            <li>Sauce Dallace</li>
+                            <img src="assets/images/logo.png" class="logo" alt="logo"> 
+                        </ul>
+                        </a>
+                    </div>
+                </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h2>2 burgers</h2>
+                          <h3>"For a couple"</h3>
+                          <div class="couple">
+                            <a href="#"><img src="assets/images/burgers4.jpg" alt="burger"></a>
+                            <ul class="hidden">
+                                <li>Bacon</li>
+                                <li>Onion</li>
+                                <li>Cornichons</li>
+                                <li>Jalapeno</li>
+                                <li>Sauce Charleroi</li>
+                                <img src="assets/images/logo.png" class="logo" alt="logo">
+                            </ul>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                          <h2>Burger</h2>
+                              <h3>"All for you"</h3>
+                              <div class="allForYou">
+                                <a href="#cart"><img src="assets/images/burgers5.jpg" alt="burger"></a>
+                                <ul class="hidden">
+                                    <li>Cheddar</li>
+                                    <li>Boeuf</li>
+                                    <li>Frite</li>
+                                    <li>Salade</li>
+                                    <li>Sauce Speciale</li>
+                                    <img src="assets/images/logo.png" class="logo" alt="logo">
+                                </ul>
+                                </a>
+                            </div>
+                      </div>
+          </div>
+          <!--Subscribe-->
+            <div class="row form">
+                <p class="col-12">
+                    Recevez nos promotions et nouveautés par e-mail
+                </p>
+                <form class="col-12">
+                    <input type="email" placeholder="Enter email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+      </div>
+      <!--Footer-->
+    <footer class="page-footer font-small">
+        <div class="container-fluid">
+            <div class="container">
+                    <div class="row padding">
+                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                                <h2>Adress</h2>
+                                <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                                <h2>Contacts</h2>
+                                <a href="mailto:bearBurger@gmail.com" subject="From a customer"><b>Email:</b><br>bearBurger@gmail.com</a><br>
+                                <a href="tel:+324899876543"><b>Phone:</b><br>+32 (489) 987 6543</a>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1">
+                                <h2>Links</h2>
+                                <a href="#" download="">Télécharger la carte</a><br>
+                                <a href="#">Jobs</a>
+                            </div>
+                            <div class="col-md-3 d-none d-md-block align-self-center text-md-right">
+                                <img class="logo" src="assets/images/logo.png">
+                            </div>
+                        </div>
+                        <hr class="m-1">
+                        <div class="row padding icon text-md-left">
+                                <div class="col-md-6 col-sm-12">
+                                    <a class="pr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="pr-3" href="#"><i class="fab fa-instagram"></i></a>
+                                    <a class="pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 text-md-right">
+                                <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
+                                </div>
+                        </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/3f5d2c0df9.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
