@@ -213,6 +213,9 @@ footer {
   .form input {
     text-align: center;
   }
+  .form .btn {
+    margin-top: 0.5em;
+  }
 }
 
 @media (min-width: 768px) {
