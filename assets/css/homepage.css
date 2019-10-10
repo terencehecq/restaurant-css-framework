@@ -4,14 +4,11 @@ html {
 }
 
 .container {
-  max-width: 900px;
-}
-
-.container-fluid {
-  background-color: #fcb337;
+  max-width: 1000px;
 }
 
 .carousel-inner {
+  margin-top: 5vw;
   height: 400px;
 }
 
@@ -131,6 +128,10 @@ html {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+footer {
+  position: relative;
+}
+
 .animation {
   position: absolute;
   z-index: -2;
@@ -188,6 +189,9 @@ html {
 }
 
 @media (max-width: 767px) {
+  .carousel-inner {
+    margin-top: 10vw;
+  }
   .caption1 {
     top: 70%;
     left: 5%;
