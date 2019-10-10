@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/bear.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet" href="assets/css/carte.css">
 <link rel="icon" href="favicon.ico" type="image/png">
 <title>Carte</title>
@@ -15,31 +15,21 @@
 
 
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
-        <a class="navbar-brand" href="accueil.html">
-            <img src="assets/images/logo.png" width="70" height="45" class="d-inline-block align-top" alt="Logo Bear burger">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-sm-center" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Accueil</a>
-                </li>
-                <li class="nav-item border-sm active">
-                    <a class="nav-link mx-3" href="carte.html">Carte<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item border-sm">
-                    <a class="nav-link mx-3" href="photos.html">Photos</a>
-                </li>
-                <li class="nav-item border-sm">
-                    <a class="nav-link mx-3" href="restaurants.html">Restaurants</a>
-                </li>
-                <li class="nav-item border-sm">
-                    <a class="nav-link mx-3" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md bg-warning navbar-dark text-light fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><span id="brand" class="text-dark"><strong>BearBurger</strong></span><img class="img-fluid" src="assets/images/logo_2.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse bg-warning" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li class="nav-item active"><a href="carte.html" class="nav-link">Carte</a></li>
+                    <li class="nav-item"><a href="photos.html" class="nav-link">Photos</a></li>
+                    <li class="nav-item"><a href="resraurants.html" class="nav-link">Restaurants</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -488,38 +478,38 @@
 
 
     <!--Footer-->
-    <footer class="text-light">
+    <footer class="page-footer font-small bg-warning pt-5">
         <div class="container-fluid">
             <div class="container">
-                <div class="row py-4">
-                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
-                        <h2>Adress</h2>
+                <div class="row padding">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center text-dark">
+                        <h2>Address</h2>
                         <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
                     </div>
-                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center text-dark">
                         <h2>Contacts</h2>
-                        <a href="mailto:bearBurger@gmail.com" subject="From a customer" class="text-light"><b>Email:</b><br>bearBurger@gmail.com</a><br>
-                        <a href="tel:+324899876543" class="text-light"><b>Phone:</b><br>+32 (489) 987 6543</a>
+                        <a href="mailto:bearBurger@gmail.com" subject="From a customer"><b>Email:</b><br>bearBurger@gmail.com</a><br>
+                        <a href="tel:+324899876543"><b>Phone:</b><br>+32 (489) 987 6543</a>
                     </div>
-                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1 text-dark">
                         <h2>Links</h2>
-                        <a href="#" download="" class="text-light">Télécharger la carte</a><br>
-                        <a href="#" class="text-light">Jobs</a>
+                        <a href="#" download="">Télécharger la carte</a><br>
+                        <a href="#">Jobs</a>
                     </div>
-                    <div class="col-md-3 d-none d-md-block align-self-center text-md-center">
-                        <img class="logo" src="assets/images/logo.png">
+                    <div class="col-md-3 d-none d-md-block align-self-center text-md-right">
+                        <img class="img-fluid" src="assets/images/logo_2.png">
                     </div>
                 </div>
                 <hr class="m-1">
-                <div class="row padding icon text-md-left pt-3">
-                    <div class="col-md-6 col-sm-12 mb-3">
-                        <a class="pr-3" href="#"><i class="fab fa-linkedin-in text-light"></i></a>
-                        <a class="pr-3" href="#"><i class="fab fa-instagram text-light"></i></a>
-                        <a class="pr-3" href="#"><i class="fab fa-facebook-f text-light"></i></a>
-                        <a href="#"><i class="fab fa-twitter text-light"></i></a>
+                <div class="row padding icon text-md-left">
+                    <div class="col-md-6 col-sm-12">
+                        <a class="pr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                     <div class="col-md-6 col-sm-12 text-md-right">
-                    <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
+                        <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
                     </div>
                 </div>
             </div>
