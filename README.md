@@ -15,7 +15,26 @@ Ce projet à été réaliser par:
 
 ## Pourquoi ?
 
-Ce projet était un travail de groupe réaliser pendant notre formation à [__becode__](https://www.becode.org/index_fr.html). Pour celui-ci, nous avions pour contrainte d'utiliser le [Bootstrap](https://getbootstrap.com/).
+Ce projet était un travail de groupe réaliser pendant notre formation à [__becode__](https://www.becode.org/index_fr.html). Pour celui-ci, nous avions pour contrainte d'utiliser le [Bootstrap](https://getbootstrap.com/).  
+
+## Témoignages:  
+[Valeriya](https://github.com/ValeriyaKozlova):  
+
+Témoignage ici
+
+
+[Terence](https://github.com/terencehecq):  
+
+Témoignage ici
+
+
+[Markus](https://github.com/emilemarkus):  
+
+Témoignage ici
+
+[Micky](https://github.com/MickyCompanie):  
+
+Avant de commencer le projet je n'avais jamais entendu parler du bootstrap, ca à été la grande découverte. J'ai trouver son concepte très attirant au départ, mais en l'utilisant je me suis rendu compte qu'il avait un très gros impacte négatif sur la sémentique du site.
 
 ## Quand ?
 
