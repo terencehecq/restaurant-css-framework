@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular|Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+body {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Pacifico";
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #3f3937;
+}
+
+.navbar,
+.navbar-light,
+.navbar-dark {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  height: 15vh;
+  z-index: 99999999;
+  padding: 0;
+}
+
+.navbar .navbar .navbar-brand,
+.navbar .navbar-light .navbar-brand,
+.navbar .navbar-dark .navbar-brand,
+.navbar-light .navbar .navbar-brand,
+.navbar-light .navbar-light .navbar-brand,
+.navbar-light .navbar-dark .navbar-brand,
+.navbar-dark .navbar .navbar-brand,
+.navbar-dark .navbar-light .navbar-brand,
+.navbar-dark .navbar-dark .navbar-brand {
+  margin-left: 5vw !important;
+}
+
+.navbar .navbar-brand,
+.navbar-light .navbar-brand,
+.navbar-dark .navbar-brand {
+  padding-right: 15vw !important;
+}
+
+.navbar .img-fluid,
+.navbar-light .img-fluid,
+.navbar-dark .img-fluid {
+  width: 8vw;
+  height: auto;
+}
+
+.navbar #brand,
+.navbar-light #brand,
+.navbar-dark #brand {
+  display: none;
+}
+
+.navbar .nav-item a,
+.navbar-light .nav-item a,
+.navbar-dark .nav-item a {
+  text-align: center;
+  height: auto;
+  border-bottom: 1px solid #fcb337;
+}
+
+.navbar .navbar-dark .navbar-nav .show > .nav-link,
+.navbar .navbar-dark .navbar-nav .active > .nav-link,
+.navbar .navbar-dark .navbar-nav .nav-link.show,
+.navbar .navbar-dark .navbar-nav .nav-link.active,
+.navbar li.active a,
+.navbar li:hover a,
+.navbar-light .navbar-dark .navbar-nav .show > .nav-link,
+.navbar-light .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-light .navbar-dark .navbar-nav .nav-link.show,
+.navbar-light .navbar-dark .navbar-nav .nav-link.active,
+.navbar-light li.active a,
+.navbar-light li:hover a,
+.navbar-dark .navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark li.active a,
+.navbar-dark li:hover a {
+  color: #3f3937 !important;
+}
+
+.navbar li.active a,
+.navbar-light li.active a,
+.navbar-dark li.active a {
+  font-weight: bold;
+}
+
+.navbar .container-fluid,
+.navbar-light .container-fluid,
+.navbar-dark .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.menuSmall {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  height: 8vh;
+}
+
+.menuSmall #brand {
+  display: block;
+  height: 8vh;
+  padding: 1vh 5vw;
+}
+
+.menuSmall .img-fluid {
+  display: none;
+}
+
+footer {
+  margin-top: 5vh;
+}
+
+footer .img-fluid {
+  width: 20vw;
+}
+
+footer .img-fluid .page-footer a {
+  color: #3f3937;
+}
+
+@media screen and (max-width: 370px) {
+  nav .img-fluid {
+    display: none;
+  }
+  nav .navbar-dark li {
+    border-bottom: 1px solid #db9d32;
+  }
+  .navbar #brand,
+  .navbar-light #brand,
+  .navbar-dark #brand {
+    display: block;
+    padding-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  nav .img-fluid {
+    display: none;
+  }
+  nav .navbar-dark li {
+    border-bottom: 1px solid #db9d32;
+  }
+  .navbar #brand,
+  .navbar-light #brand,
+  .navbar-dark #brand {
+    display: block;
+    padding-left: 5vw;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
