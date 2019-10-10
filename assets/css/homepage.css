@@ -7,7 +7,7 @@
 }
 
 .carousel-inner {
-  height: 65vh;
+  height: 400px;
 }
 
 .carousel-inner img {
@@ -36,7 +36,7 @@
 }
 
 .offreDumois {
-  margin-top: 15vh;
+  margin-top: 3vh;
   cursor: pointer;
 }
 
@@ -141,6 +141,11 @@ footer {
           animation: bearWave 10s linear 0s infinite normal;
 }
 
+.animation img {
+  height: 100%;
+  width: 100%;
+}
+
 @-webkit-keyframes bearWave {
   from {
     top: 0;
@@ -191,6 +196,9 @@ footer {
   .carousel-inner {
     margin-top: 0vw;
   }
+  .carousel-inner img {
+    height: 100%;
+  }
   .caption1 {
     top: 70%;
     left: 5%;
@@ -198,7 +206,8 @@ footer {
   .couple .hidden,
   .allForYou .hidden,
   .veryHungry .hidden {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    padding-top: 1.5em;
   }
   h1 {
     font-size: 2em;
@@ -218,12 +227,20 @@ footer {
 }
 
 @media (min-width: 768px) {
-  img {
-    width: 100%;
-  }
   .caption1 {
     bottom: 70%;
     left: 57%;
+  }
+  .couple .hidden,
+  .allForYou .hidden,
+  .veryHungry .hidden {
+    padding-top: 1em;
+  }
+}
+
+@media (min-width: 800px) {
+  .carousel-inner .carousel-item img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=homepage.css.map */
