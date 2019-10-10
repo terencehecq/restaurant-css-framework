@@ -13,28 +13,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/homepage.css">
-    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
       <!--Navigation-->
-      <nav class="navbar navbar-expand-md navbar-light sticky-top">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brad"><img class="logo img-fluid" alt="logo of BearBurger" src="assets/images/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <nav class="navbar navbar-expand-md bg-warning navbar-dark text-light fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><span id="brand" class="text-dark"><strong>BearBurger</strong></span><img class="img-fluid" src="assets/images/logo_2.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="#index.html" class="nav-link">Accueil</a></li>
-                        <li class="nav-item"><a href="carte.html" class="nav-link">Carte</a></li>
-                        <li class="nav-item"><a href="photos.html" class="nav-link">Photos</a></li>
-                        <li class="nav-item"><a href="resraurants.html" class="nav-link">Restaurants</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse bg-warning" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#index.html" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="carte.html" class="nav-link">Carte</a></li>
+                    <li class="nav-item"><a href="photos.html" class="nav-link">Photos</a></li>
+                    <li class="nav-item"><a href="resraurants.html" class="nav-link">Restaurants</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
       <!--Slides-->
       <div class="carousel slide" data-ride="carousel" id="slides">
         <ul class="carousel-indicators">
@@ -165,40 +165,40 @@
           </form>
         </div>
       <!--Footer-->
-    <footer class="page-footer font-small">
-        <div class="container-fluid pr-4 pt-4 pl-4">
+      <footer class="page-footer font-small bg-warning pt-5">
+        <div class="container-fluid">
             <div class="container">
-                    <div class="row padding">
-                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
-                                <h2>Address</h2>
-                                <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
-                            </div>
-                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
-                                <h2>Contacts</h2>
-                                <a href="mailto:bearBurger@gmail.com" subject="From a customer"><b>Email:</b><br>bearBurger@gmail.com</a><br>
-                                <a href="tel:+324899876543"><b>Phone:</b><br>+32 (489) 987 6543</a>
-                            </div>
-                            <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1">
-                                <h2>Links</h2>
-                                <a href="#" download="">Télécharger la carte</a><br>
-                                <a href="#">Jobs</a>
-                            </div>
-                            <div class="col-md-3 d-none d-md-block align-self-center text-md-right">
-                                <img class="logo img-fluid" alt="logo of BearBurger" src="assets/images/logo.png">
-                            </div>
-                        </div>
-                        <hr class="m-1">
-                        <div class="row padding icon text-md-left">
-                                <div class="col-md-6 col-sm-12">
-                                    <a class="pr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="pr-3" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </div>
-                                <div class="col-md-6 col-sm-12 text-md-right">
-                                <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
-                                </div>
-                        </div>
+                <div class="row padding">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center text-dark">
+                        <h2>Address</h2>
+                        <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center text-dark">
+                        <h2>Contacts</h2>
+                        <a href="mailto:bearBurger@gmail.com" subject="From a customer"><b>Email:</b><br>bearBurger@gmail.com</a><br>
+                        <a href="tel:+324899876543"><b>Phone:</b><br>+32 (489) 987 6543</a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1 text-dark">
+                        <h2>Links</h2>
+                        <a href="#" download="">Télécharger la carte</a><br>
+                        <a href="#">Jobs</a>
+                    </div>
+                    <div class="col-md-3 d-none d-md-block align-self-center text-md-right">
+                        <img class="img-fluid" src="assets/images/logo_2.png">
+                    </div>
+                </div>
+                <hr class="m-1">
+                <div class="row padding icon text-md-left">
+                    <div class="col-md-6 col-sm-12">
+                        <a class="pr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-md-right">
+                        <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="animation d-none d-md-block">
@@ -206,9 +206,11 @@
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script></script>
     <script src="https://kit.fontawesome.com/3f5d2c0df9.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/actions.js"></script>
   </body>
 </html>
