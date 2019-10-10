@@ -238,6 +238,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 780px) {
+  .carousel {
+    height: 400px;
+  }
+}
+
 @media (min-width: 800px) {
   .carousel-inner .carousel-item img {
     width: 100%;
