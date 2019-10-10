@@ -3,13 +3,11 @@ html {
     box-sizing: border-box;
 }
 .container {
-    max-width: 900px;
-}
-.container-fluid {
-    background-color: #fcb337;
+   max-width: 1000px;
 }
 //slides
 .carousel-inner {
+    margin-top: 5vw;
     height: 400px;
     img {
         height: 100%;
@@ -106,6 +104,9 @@ html {
 }
 
 // animation
+footer {
+    position: relative;
+}
 .animation {
     position: absolute;
     z-index: -2;
@@ -139,6 +140,9 @@ html {
 //responsive
 
 @media (max-width: 767px) {
+        .carousel-inner {
+        margin-top: 10vw;
+        }
         .caption1 {
         top: 70%;
         left: 5%;
