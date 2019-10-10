@@ -8,8 +8,8 @@ que vous soyez entre amis ou en famille, venez déguster un de nos nombreux et s
 
 Ce projet à été réaliser par:
 
-[__Terence__](https://github.com/terencehecq)  
 [__Valeriya__](https://github.com/ValeriyaKozlova)  
+[__Terence__](https://github.com/terencehecq)  
 [__Markus__](https://github.com/emilemarkus)  
 [__Micky__](https://github.com/MickyCompanie)  
 
