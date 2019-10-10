@@ -8,7 +8,7 @@
 }
 
 .carousel-inner {
-    height: 65vh; //height: 400px;
+    height: 400px;
     img {
         height: 100%;
     }
@@ -36,7 +36,7 @@
 
 //main part
 .offreDumois {
-    margin-top: 15vh;
+    margin-top: 3vh;
     cursor: pointer;
     h1,
     h2,
@@ -121,6 +121,10 @@ footer {
     left: -90px;
     width: 150px;
     animation: bearWave 10s linear 0s infinite normal;
+    img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @keyframes bearWave {
@@ -148,6 +152,9 @@ footer {
 @media (max-width: 767px) {
     .carousel-inner {
         margin-top: 0vw;
+        img {
+            height: 100%;
+        }
     }
     .caption1 {
         top: 70%;
@@ -157,7 +164,8 @@ footer {
     .allForYou,
     .veryHungry {
         .hidden {
-            font-size: 1.5em;
+            font-size: 1.4em;
+            padding-top: 1.5em;
         }
     }
     h1 {
@@ -182,11 +190,25 @@ footer {
 }
 
 @media (min-width: 768px) {
-    img {
-        width: 100%;
-    }
     .caption1 {
         bottom: 70%;
         left: 57%;
     }
+    .couple,
+    .allForYou,
+    .veryHungry {
+        .hidden {
+            padding-top: 1em;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+        .carousel-inner {
+        .carousel-item  {
+        img {
+            width: 100%;
+        }
+    } 
+}  
 }
