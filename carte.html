@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/bear.css">
+<link rel="stylesheet" href="assets/css/carte.css">
+<link rel="icon" href="favicon.ico" type="image/png">
+<title>Carte</title>
+</head>
+<body>
+
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
+        <a class="navbar-brand" href="accueil.html">
+            <img src="assets/images/logo.png" width="70" height="45" class="d-inline-block align-top" alt="Logo Bear burger">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-sm-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item border-sm active">
+                    <a class="nav-link mx-3" href="carte.html">Carte<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="photos.html">Photos</a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="nav-item border-sm">
+                    <a class="nav-link mx-3" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Carte -->
+    <div class="container my-5">
+
+        <h2 class="text-center my-5 display-4 d-md-none">Notre Carte</h2>
+        <h2 class="text-center my-5 display-3 d-none d-md-block">Notre Carte</h2>
+
+    
+        <!-- Mobile : Accordéon -->
+
+        <div class="accordion d-md-none" id="accordionExample">
+
+            <!-- L'Avocat -->
+            <div class="card">
+                <div class="card-header text-center" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        L'Avocat
+                        </button>
+                    </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/AVOCAT.jpg" class="card-img-top" alt="Burger L'Avocat">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">L'Avocat<span class="text-right">13€</span></h4>
+                                <p class="card-text text-center">Buns, burger 100% pur bœuf, salade gourmande, oignons rouges, bacon, courgettes snackées, sauce guacamole
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Bearcon -->
+            <div class="card">
+                <div class="card-header text-center" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Le Bearcon <sup><span class="badge badge-pill badge-danger">Best seller</span></sup>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/BACON.jpg" class="card-img-top" alt="Burger Le Bearcon">
+                            <div class="card-body">
+                                <h4 class="card-title d-flex justify-content-between mx-2 mt-2 mb-4"><span>Le Bearcon <sup><span class="badge badge-pill badge-danger">Best seller</span></sup></span><span class="text-right">11€</span></h4>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, oignons rouges, cornichons, double cheddar, double bacon, Daily sauce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Bearbecue -->
+            <div class="card">
+                <div class="card-header text-center" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Le Bearbecue
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/BARBECUE.jpg" class="card-img-top" alt="Burger Le Bearbecue">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">Le Bearbecue<span class="text-right">11€</span></h4>
+                                <p class="card-text text-center">Buns, burger 100% pur bœuf, salade gourmande, oignons rouges, bacon, courgettes snackées, sauce guacamole.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Fish -->
+            <div class="card">
+                <div class="card-header text-center" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Le Fish
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/FISH.jpg" class="card-img-top" alt="Burger Le Fish">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">Le Fish<span class="text-right">12€</span></h4>
+                                <p class="card-text text-center">Buns toasté, filet de cabillaud pané, salade gourmande, tomate, oignons rouges, tartare maison.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Melty -->
+            <div class="card">
+                <div class="card-header text-center" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Le Melty <sup><span class="badge badge-pill badge-success">New</span></sup>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/FONDANT.jpg" class="card-img-top" alt="Burger Le Melty">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4"><span>Le Melty <sup><span class="badge badge-pill badge-success">New</span></sup></span><span class="text-right">13€</span></h4>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, croquette fromage, oignons poêlés, cornichons, cheddar, bacon, Daily sauce.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- L'Ourson -->
+            <div class="card">
+                <div class="card-header text-center" id="headingSix">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        L'Ourson
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/KIDS.jpg" class="card-img-top" alt="Burger L'Ourson">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">L'Ourson<span class="text-right">9€</span></h4>
+                                <p class="card-text text-center">Kid‘s bun, petit burger 100% pur bœuf, oignions fris, ketchup.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- L'Original -->
+            <div class="card">
+                <div class="card-header text-center" id="headingSeven">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        L'Original
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/PARRAIN.jpg" class="card-img-top" alt="Burger Le Parrain">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">L'Original<span class="text-right">10€</span></h4>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, jambon de Parme, tomates confites, tuile de parmesan, pesto.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Parrain -->
+            <div class="card">
+                <div class="card-header text-center" id="headingEight">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Le Parrain
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/PARRAIN.jpg" class="card-img-top" alt="Burger Le Parrain">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">Le Parrain<span class="text-right">12€</span></h4>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, jambon de Parme, tomates confites, tuile de parmesan, pesto.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Goat vs Bear -->
+            <div class="card">
+                <div class="card-header text-center" id="headingNine">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        Goat vs Bear
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/SEGUIN.jpg" class="card-img-top" alt="Burger Goat vs Bear">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">Goat vs Bear<span class="text-right">14€</span></h4>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, oignons poêlés, fromage de chèvre, pomme caramélisée, bacon, sauce miel moutarde maison.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Le Veggie -->
+            <div class="card">
+                <div class="card-header text-center" id="headingTen">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        Le Veggie
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card mx-auto">
+                            <img src="assets/images/VEGGIE.jpg" class="card-img-top" alt="Burger Le Veggie">
+                            <div class="card-body">
+                                <h4 class=" d-flex justify-content-between mx-2 mt-2 mb-4">Le Veggie<span class="text-right">12€</span></h4>
+                                <p class="card-text text-center">Buns toasté, patty végétarien maison, salade gourmande, tomate, oignons rouges, cornichons, double Cheddar, Daily sauce.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Medium : Liste avec génération de contenu -->
+
+        <!-- Liste des Hamburgers -->
+        <div class="row mt-5 d-none d-md-flex justify-content-around">
+            <div class="col ">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active d-flex justify-content-between" id="list-avocat-list" data-toggle="list" href="#list-avocat" role="tab" aria-controls="avocat"><span>L'Avocat</span><span class="text-right">13€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-bacon-list" data-toggle="list" href="#list-bacon" role="tab" aria-controls="bacon"><span>Le Bearcon <sup><span class="badge badge-pill badge-danger">Best seller</span></sup></span><span class="text-right">11€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-barbecue-list" data-toggle="list" href="#list-barbecue" role="tab" aria-controls="barbecue"><span>Le Bearbecue</span><span class="text-right">11€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-fish-list" data-toggle="list" href="#list-fish" role="tab" aria-controls="fish"><span>Le Fish</span><span class="text-right">12€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-fondant-list" data-toggle="list" href="#list-fondant" role="tab" aria-controls="fondant"><span>Le Melty <sup><span class="badge badge-pill badge-success">New</span></sup></span><span class="text-right">13€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-kids-list" data-toggle="list" href="#list-kids" role="tab" aria-controls="kids"><span>L'Ourson</span><span class="text-right">9€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-original-list" data-toggle="list" href="#list-original" role="tab" aria-controls="original"><span>L'Original</span><span class="text-right">10€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-parrain-list" data-toggle="list" href="#list-parrain" role="tab" aria-controls="parrain"><span>Le Parrain</span><span class="text-right">12€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-goat-list" data-toggle="list" href="#list-goat" role="tab" aria-controls="goat"><span>Goat vs Bear</span><span class="text-right">14€</span></a>
+
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between" id="list-vege-list" data-toggle="list" href="#list-vege" role="tab" aria-controls="vege"><span>Le Veggie</span><span class="text-right">12€</span></a>
+                </div>
+            </div>
+
+
+                <!-- Liste des Cartes avec photos -->
+
+            <div class="col-7">
+
+                <div class="tab-content" id="nav-tabContent">
+
+                    <!-- L'Avocat -->
+                    <div class="tab-pane fade show active" id="list-avocat" role="tabpanel" aria-labelledby="list-avocat-list">
+                        <div class="card mx-auto mt-4 p-2 shadow" style="width: 22rem;">
+                            <img src="assets/images/AVOCAT.jpg" class="card-img-top" alt="Burger L'Avocat">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mt-2">L'Avocat</h5>
+                                <p class="card-text text-center my-2">Buns, burger 100% pur bœuf, salade gourmande, oignons rouges, bacon, courgettes snackées, sauce guacamole
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Bearcon -->
+                    <div class="tab-pane fade" id="list-bacon" role="tabpanel" aria-labelledby="list-bacon-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/BACON.jpg" class="card-img-top" alt="Burger Le Bearcon">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Bearcon <sup><span class="badge badge-pill badge-danger">Best seller</span></sup></h5>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, oignons rouges, cornichons, double cheddar, double bacon, Daily sauce.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Bearbecue -->
+                    <div class="tab-pane fade" id="list-barbecue" role="tabpanel" aria-labelledby="list-barbecue-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/BARBECUE.jpg" class="card-img-top" alt="Burger Le Bearbecue">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Bearbecue</h5>
+                                <p class="card-text text-center">Buns, burger 100% pur bœuf, salade gourmande, oignons rouges, bacon, courgettes snackées, sauce guacamole.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Fish -->
+                    <div class="tab-pane fade" id="list-fish" role="tabpanel" aria-labelledby="list-fish-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/FISH.jpg" class="card-img-top" alt="Burger Le Fish">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Fish</h5>
+                                <p class="card-text text-center">Buns toasté, filet de cabillaud pané, salade gourmande, tomate, oignons rouges, tartare maison.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Melty -->
+                    <div class="tab-pane fade" id="list-fondant" role="tabpanel" aria-labelledby="list-fondant-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/FONDANT.jpg" class="card-img-top" alt="Burger Le Melty">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Melty <sup><span class="badge badge-pill badge-success">New</span></sup></h5>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, croquette fromage, oignons poêlés, cornichons, cheddar, bacon, Daily sauce.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- L'Ourson -->
+                    <div class="tab-pane fade" id="list-kids" role="tabpanel" aria-labelledby="list-kids-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/KIDS.jpg" class="card-img-top" alt="Burger L'Ourson">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">L'Ourson</h5>
+                                <p class="card-text text-center">Kid‘s bun, petit burger 100% pur bœuf, oignions fris, ketchup.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- L'Original -->
+                    <div class="tab-pane fade" id="list-original" role="tabpanel" aria-labelledby="list-original-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/ORIGINAL.jpg" class="card-img-top" alt="Burger L'Original">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">L'Original</h5>
+                                <p class="card-text text-center">Buns américain, burger 100% pur bœuf, salade gourmande, tomate, oignons poêlés, cornichons, ketchup & moutarde.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Parrain -->
+                    <div class="tab-pane fade" id="list-parrain" role="tabpanel" aria-labelledby="list-parrain-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/PARRAIN.jpg" class="card-img-top" alt="Burger Le Parrain">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Parrain</h5>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, jambon de Parme, tomates confites, tuile de parmesan, pesto.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Goat vs Bear -->
+                    <div class="tab-pane fade" id="list-goat" role="tabpanel" aria-labelledby="list-goat-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/SEGUIN.jpg" class="card-img-top" alt="Burger Goat vs Bear">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Goat vs Bear</h5>
+                                <p class="card-text text-center">Buns toasté, burger 100% pur bœuf, salade gourmande, oignons poêlés, fromage de chèvre, pomme caramélisée, bacon, sauce miel moutarde maison.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Le Veggie -->
+                    <div class="tab-pane fade" id="list-vege" role="tabpanel" aria-labelledby="list-vege-list">
+                        <div class="card mx-auto mt-5 p-2 shadow" style="width: 20rem;">
+                            <img src="assets/images/VEGGIE.jpg" class="card-img-top" alt="Burger Le Végétarien">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Le Veggie</h5>
+                                <p class="card-text text-center">Buns toasté, patty végétarien maison, salade gourmande, tomate, oignons rouges, cornichons, double Cheddar, Daily sauce.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- Fin du container-->
+
+
+    <!--Footer-->
+    <footer class="text-light">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                        <h2>Adress</h2>
+                        <p>Square des Martyrs, 6000, Charleroi, Belgique </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center">
+                        <h2>Contacts</h2>
+                        <a href="mailto:bearBurger@gmail.com" subject="From a customer" class="text-light"><b>Email:</b><br>bearBurger@gmail.com</a><br>
+                        <a href="tel:+324899876543" class="text-light"><b>Phone:</b><br>+32 (489) 987 6543</a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-md-left text-sm-center pt-1">
+                        <h2>Links</h2>
+                        <a href="#" download="" class="text-light">Télécharger la carte</a><br>
+                        <a href="#" class="text-light">Jobs</a>
+                    </div>
+                    <div class="col-md-3 d-none d-md-block align-self-center text-md-center">
+                        <img class="logo" src="assets/images/logo.png">
+                    </div>
+                </div>
+                <hr class="m-1">
+                <div class="row padding icon text-md-left pt-3">
+                    <div class="col-md-6 col-sm-12 mb-3">
+                        <a class="pr-3" href="#"><i class="fab fa-linkedin-in text-light"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-instagram text-light"></i></a>
+                        <a class="pr-3" href="#"><i class="fab fa-facebook-f text-light"></i></a>
+                        <a href="#"><i class="fab fa-twitter text-light"></i></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-md-right">
+                    <p>© Copyright 2019 BearBurger - All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
