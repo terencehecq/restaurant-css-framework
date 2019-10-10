@@ -1,41 +1,14 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: calc(1hw + 0.6em);
 }
 
 .container {
   max-width: 900px;
-  background-color: lightgoldenrodyellow;
 }
 
-.row {
-  padding: 10px 10px;
-}
-
-nav,
-footer {
-  font-size: 1.5em;
-  background-color: red;
-  text-align: left;
-}
-
-nav .logo,
-footer .logo {
-  width: 120px;
-}
-
-nav {
-  opacity: 0.9;
-}
-
-.slide2 {
-  color: black;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.slide2 button {
-  color: black;
+.container-fluid {
+  background-color: #fcb337;
 }
 
 .carousel-inner {
@@ -49,15 +22,6 @@ nav {
 .carousel-item {
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
-  /*.active {
-        transform: translateY(-15%);
-    }
-    .slide2 {
-        transform: translateY(-30%);
-    }
-    .slide3 {
-        transform: translateZ(30%);
-    }*/
 }
 
 .carousel-caption {
@@ -69,15 +33,15 @@ nav {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  background: none;
 }
 
-.caption1 {
-  bottom: 70%;
-  left: 57%;
+.carousel-caption a:hover {
+  background-color: #000;
 }
 
 .offreDumois {
-  text-align: center;
+  cursor: pointer;
 }
 
 .offreDumois h1,
@@ -111,16 +75,19 @@ nav {
 .allForYou .hidden,
 .veryHungry .hidden {
   visibility: hidden;
+  background-image: url("../images/footprint.png");
+  background-size: cover;
+  background-color: rgba(252, 179, 55, 0.6);
+  z-index: 1;
   opacity: 0;
   height: 0px;
   position: absolute;
-  top: 10%;
+  top: 0%;
   list-style-type: none;
   font-size: 1em;
-  text-align: left;
   font-weight: bold;
-  color: white;
-  text-shadow: 1px 1px 1px white;
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -130,21 +97,6 @@ nav {
 .allForYou .hidden img,
 .veryHungry .hidden img {
   opacity: 0;
-}
-
-.couple .hidden .logo,
-.allForYou .hidden .logo,
-.veryHungry .hidden .logo {
-  width: 50px;
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-}
-
-.couple:hover,
-.allForYou:hover,
-.veryHungry:hover {
-  background-color: red;
 }
 
 .couple:hover img,
@@ -162,6 +114,7 @@ nav {
   visibility: visible;
   opacity: 1;
   width: 100%;
+  height: 100%;
 }
 
 .couple:hover .hidden img,
@@ -174,65 +127,97 @@ nav {
   width: 20x;
 }
 
-.form {
-  border: 2px solid black;
-  -webkit-box-shadow: 1 1 1 5px black;
-          box-shadow: 1 1 1 5px black;
-  text-align: center;
-}
-
-.form button {
-  background-color: red;
-}
-
 .form p {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-footer {
-  text-align: center;
-  font-size: 0.8em;
-  color: black;
+.animation {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: -90px;
+  width: 150px;
+  -webkit-animation: bearWave 10s linear 0s infinite normal;
+          animation: bearWave 10s linear 0s infinite normal;
 }
 
-footer .logo {
-  width: 12em;
+@-webkit-keyframes bearWave {
+  from {
+    top: 0;
+    left: -90px;
+  }
+  25% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+    top: -120px;
+    left: 0;
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    top: 10%;
+    left: -100px;
+  }
+  100% {
+    top: 10%;
+    left: -100px;
+  }
 }
 
-footer .container {
-  background-color: red;
+@keyframes bearWave {
+  from {
+    top: 0;
+    left: -90px;
+  }
+  25% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+    top: -120px;
+    left: 0;
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    top: 10%;
+    left: -100px;
+  }
+  100% {
+    top: 10%;
+    left: -100px;
+  }
 }
 
-footer h2 {
-  font-weight: 200;
-  font-size: 2em;
-}
-
-footer a {
-  color: black;
-  text-transform: none;
-}
-
-footer a:hover {
-  text-decoration: none;
-  color: brown;
-}
-
-footer .icon i {
-  color: black;
-  font-size: 2.5em;
-}
-
-@media only screen and (max-width: 767px) {
-  .carousel-caption,
-  .display-2 {
+@media (max-width: 767px) {
+  .caption1 {
+    top: 70%;
+    left: 5%;
+  }
+  .couple .hidden,
+  .allForYou .hidden,
+  .veryHungry .hidden {
+    font-size: 1.5em;
+  }
+  h1 {
     font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .form input {
+    text-align: center;
   }
 }
 
 @media (min-width: 768px) {
   img {
     width: 100%;
+  }
+  .caption1 {
+    bottom: 70%;
+    left: 57%;
   }
 }
 /*# sourceMappingURL=homepage.css.map */
