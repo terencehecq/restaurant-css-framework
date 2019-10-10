@@ -1,21 +1,27 @@
-
 html {
     box-sizing: border-box;
 }
+
 .container {
-   max-width: 1000px;
+    max-width: 1000px;
 }
+
 //slides
+.carousel {
+    margin-top: 15vh;
+}
+
 .carousel-inner {
-    margin-top: 6vw;
-    height: 400px;
+    height: 65vh; //height: 400px;
     img {
         height: 100%;
     }
 }
+
 .carousel-item {
     transform: translateY(-10%);
 }
+
 .carousel-caption {
     position: absolute;
     top: 40%;
@@ -27,11 +33,11 @@ html {
     background: none;
     a {
         &:hover {
-            background-color:#000;
+            background-color: #000;
         }
     }
-     
 }
+
 //main part
 .offreDumois {
     cursor: pointer;
@@ -44,6 +50,7 @@ html {
         width: 100%;
     }
 }
+
 .couple,
 .allForYou,
 .veryHungry {
@@ -55,9 +62,9 @@ html {
     }
     .hidden {
         visibility: hidden;
-        background-image:url("../images/footprint.png");
+        background-image: url("../images/footprint.png");
         background-size: cover;
-        background-color: rgba(252, 179,55, .6);
+        background-color: rgba(252, 179, 55, .6);
         z-index: 1;
         opacity: 0;
         height: 0px;
@@ -75,7 +82,7 @@ html {
         }
     }
     transition-duration: 1s;
-    &:hover { 
+    &:hover {
         img {
             transform: scale(1.5);
             filter: opacity(0.3);
@@ -91,11 +98,13 @@ html {
         }
     }
 }
+
 .photo {
     img {
         width: 20x;
     }
 }
+
 //subscribe
 .form {
     p {
@@ -107,6 +116,7 @@ html {
 footer {
     position: relative;
 }
+
 .animation {
     position: absolute;
     z-index: -2;
@@ -117,7 +127,7 @@ footer {
 }
 
 @keyframes bearWave {
-    from { 
+    from {
         top: 0;
         left: -90px;
     }
@@ -138,43 +148,43 @@ footer {
 }
 
 //responsive
-
 @media (max-width: 767px) {
-        .carousel-inner {
-        margin-top: 10vw;
-        }
-        .caption1 {
+    .carousel-inner {
+        margin-top: 0vw;
+    }
+    .caption1 {
         top: 70%;
         left: 5%;
-        }
-        .couple,
-        .allForYou,
-        .veryHungry {
-            .hidden {
-                font-size: 1.5em;
-            }
-        }
-        h1 {
-            font-size: 2em;
-        }
-        h2 {
+    }
+    .couple,
+    .allForYou,
+    .veryHungry {
+        .hidden {
             font-size: 1.5em;
         }
-        h3 {
-            font-size: 1em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .form {
+        input {
+            text-align: center;
         }
-        .form {
-            input {
-                text-align: center;
-            }
+    }
+    .form {
+        .btn {
+            margin-top: 0.5em;
         }
-        .form {
-            .btn {
-                margin-top: 0.5em;
-            }
-        }
- }
-@media (min-width: 768px){
+    }
+}
+
+@media (min-width: 768px) {
     img {
         width: 100%;
     }

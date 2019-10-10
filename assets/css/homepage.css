@@ -7,9 +7,12 @@ html {
   max-width: 1000px;
 }
 
+.carousel {
+  margin-top: 15vh;
+}
+
 .carousel-inner {
-  margin-top: 6vw;
-  height: 400px;
+  height: 65vh;
 }
 
 .carousel-inner img {
@@ -190,7 +193,7 @@ footer {
 
 @media (max-width: 767px) {
   .carousel-inner {
-    margin-top: 10vw;
+    margin-top: 0vw;
   }
   .caption1 {
     top: 70%;
