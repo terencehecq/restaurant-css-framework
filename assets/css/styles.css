@@ -109,6 +109,12 @@ footer footer .img-fluid .page-footer a {
 
 /**********************************************************************/
 @media screen and (max-width: 370px) {
+  nav.navbar {
+    padding-right: 5vw;
+  }
+  nav.navbar .navbar-toggler {
+    background-color: #db9d32;
+  }
   nav.navbar .img-fluid {
     display: none;
   }
@@ -119,11 +125,18 @@ footer footer .img-fluid .page-footer a {
     display: block;
     padding-left: 5vw;
   }
+  footer {
+    text-align: center;
+  }
 }
 
 @media screen and (max-height: 380px) {
   nav.navbar {
     height: 15vh;
+    padding-right: 5vw;
+  }
+  nav.navbar .navbar-toggler {
+    background-color: #db9d32;
   }
   nav.navbar .img-fluid {
     display: none;

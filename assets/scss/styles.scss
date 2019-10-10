@@ -120,6 +120,10 @@ footer {
 
 @media screen and (max-width: 370px) {
     nav.navbar {
+        padding-right: 5vw;
+        .navbar-toggler {
+            background-color: #db9d32;
+        }
         .img-fluid {
             display: none;
         }
@@ -131,11 +135,18 @@ footer {
             padding-left: 5vw;
         }
     }
+    footer {
+        text-align: center;
+    }
 }
 
 @media screen and(max-height: 380px) {
     nav.navbar {
         height: 15vh;
+        padding-right: 5vw;
+        .navbar-toggler {
+            background-color: #db9d32;
+        }
         .img-fluid {
             display: none;
         }

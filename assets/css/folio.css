@@ -24,9 +24,9 @@
 }
 
 .pagination .page-item .page-link {
+  font-size: 0.8em;
+  margin-left: 5px;
   text-align: center;
-  width: 2.5vw;
-  height: 2.5vw;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -170,7 +170,7 @@
     background-color: #050505;
   }
   #bigPic img {
-    max-width: 300%;
+    max-width: 220%;
     margin-left: -50% !important;
   }
   .galerie .col-4,
@@ -192,6 +192,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  #bigPic {
+    margin-top: 15vh;
+  }
   #bigPic img {
     width: 300%;
     margin-left: -50% !important;
@@ -217,13 +220,15 @@
 
 @media screen and (max-width: 768px) and (max-height: 415px) {
   #bigPic {
+    margin-top: 20vh;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #050505;
   }
   #bigPic img {
-    width: 150%;
+    max-width: 140%;
+    margin-top: -10vh;
   }
   .galerie .col-4,
   .galerie .image-box {
