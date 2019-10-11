@@ -1,11 +1,11 @@
-#contacts2-x
-{
-    background-color: #eeeeee;
+#contacts2-x {
+  background-color: #eeeeee;
 }
-#formulaires
-{
-    margin-top: 2em;
+
+#formulaires {
+  margin-top: 2em;
 }
+<<<<<<< HEAD
 #premier-titre
 {
     margin-top: 15vh;
@@ -18,3 +18,10 @@ footer
 {
     background-color: #fcb337;
 }
+=======
+
+#premier-titre {
+  margin-top: 15vh;
+}
+/*# sourceMappingURL=restaurants.css.map */
+>>>>>>> 46f4560da5e5d3c0b6847498269f23fe8c664554

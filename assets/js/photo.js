@@ -9,7 +9,7 @@ $(document).ready(function() {
         var matchesLink = getLink.split('_');
         $("#bigPicToChange").fadeOut("slow", function() {
             var newOne = $("#bigPicToChange").attr('src', 'assets/images/photos/' + matchesLink[1]);
-            newOne.fadeIn('fast');
+            newOne.fadeIn('slow');
         });
     });
 

@@ -1,14 +1,12 @@
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .container {
   max-width: 1000px;
 }
 
+.carousel {
+  margin-top: 15vh;
+}
+
 .carousel-inner {
-  margin-top: 6vw;
   height: 400px;
 }
 
@@ -38,6 +36,7 @@ html {
 }
 
 .offreDumois {
+  margin-top: 3vh;
   cursor: pointer;
 }
 
@@ -142,6 +141,11 @@ footer {
           animation: bearWave 10s linear 0s infinite normal;
 }
 
+.animation img {
+  height: 100%;
+  width: 100%;
+}
+
 @-webkit-keyframes bearWave {
   from {
     top: 0;
@@ -190,7 +194,10 @@ footer {
 
 @media (max-width: 767px) {
   .carousel-inner {
-    margin-top: 10vw;
+    margin-top: 0vw;
+  }
+  .carousel-inner img {
+    height: 100%;
   }
   .caption1 {
     top: 70%;
@@ -199,7 +206,8 @@ footer {
   .couple .hidden,
   .allForYou .hidden,
   .veryHungry .hidden {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    padding-top: 1.5em;
   }
   h1 {
     font-size: 2em;
@@ -219,12 +227,26 @@ footer {
 }
 
 @media (min-width: 768px) {
-  img {
-    width: 100%;
-  }
   .caption1 {
     bottom: 70%;
     left: 57%;
+  }
+  .couple .hidden,
+  .allForYou .hidden,
+  .veryHungry .hidden {
+    padding-top: 1em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .carousel {
+    height: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .carousel-inner .carousel-item img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=homepage.css.map */

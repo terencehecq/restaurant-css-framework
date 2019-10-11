@@ -1,8 +1,8 @@
-#bouton-envoi
-{
-    background-color: #fcb337;
-    border: none;
+#bouton-envoi {
+  background-color: #fcb337;
+  border: none;
 }
+<<<<<<< HEAD
 #premier-titre
 {
     margin-top: 15vh;
@@ -15,3 +15,10 @@ footer
 {
     background-color: #fcb337;
 }
+=======
+
+#premier-titre {
+  margin-top: 15vh;
+}
+/*# sourceMappingURL=contact.css.map */
+>>>>>>> 46f4560da5e5d3c0b6847498269f23fe8c664554

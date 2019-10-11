@@ -22,7 +22,7 @@ Ce projet était un travail de groupe réaliser pendant notre formation à [__be
 
 [Valeriya](https://github.com/ValeriyaKozlova):  
 
-Témoignage ici
+C'est mon premier projet sur Bootstrap. Je passais beaucoup de temps pour decouvrir les classes et comment on doit les appliquer.  Selon moi,  c'est un bon outil pour creer modèles de site Web, mais il faut utiliser SCSS/CSS pour des grands projets, car on peut faire tous les modification plus vite par la suite.
 
 
 [Terence](https://github.com/terencehecq):  
