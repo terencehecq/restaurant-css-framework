@@ -148,6 +148,9 @@ footer footer .img-fluid .page-footer a {
     display: block;
     padding-left: 5vw;
   }
+  footer {
+    text-align:center;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -164,11 +167,17 @@ footer footer .img-fluid .page-footer a {
   .carousel {
     height: 45vh;
   }
+  footer {
+    text-align:center;
+  }
 }
 
 @media screen and (min-width: 780px) {
   .navbar-dark {
     padding-right: 5vw;
+  }
+  footer {
+    text-align:center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
