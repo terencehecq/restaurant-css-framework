@@ -18,6 +18,8 @@ Ce projet à été réaliser par:
 Ce projet était un travail de groupe réaliser pendant notre formation à [__becode__](https://www.becode.org/index_fr.html). Pour celui-ci, nous avions pour contrainte d'utiliser le [Bootstrap](https://getbootstrap.com/).  
 
 ## Témoignages:  
+
+
 [Valeriya](https://github.com/ValeriyaKozlova):  
 
 Témoignage ici
