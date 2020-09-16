@@ -27,7 +27,7 @@ C'est mon premier projet sur Bootstrap. Je passais beaucoup de temps pour decouv
 
 [Terence](https://github.com/terencehecq):  
 
-Témoignage ici
+Pour ma part, je me suis principalement occupé de la carte. Je trouve que les classes rendent parfois l'HTML moins lisible mais ça rend le travail beaucoup plus rapide. J'ai apprécié le fait de pouvoir imbriquer plusieurs éléments les uns dans les autres. 
 
 
 [Markus](https://github.com/emilemarkus):  
